@@ -13,7 +13,9 @@ app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 app.use('/api/hotels', hotelRoutes);
-
+app.get('/', (req, res) => {
+  res.send('Backend is working');
+});
 app.use((err, req, res, next) => {
   if (err instanceof multer.MulterError || err.message?.startsWith('Only image')) {
     return res
