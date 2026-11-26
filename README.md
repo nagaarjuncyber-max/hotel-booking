@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hotel Booking (Hotel List Page)
 
 CRUD app: React + Redux frontend, Node.js + Express + PostgreSQL backend.
@@ -52,3 +53,6 @@ Runs on http://localhost:5173
 | DELETE | /api/hotels/:id | Delete record and image file |
 
 Uploaded images are stored in `server/uploads`.
+=======
+# hotel-booking
+>>>>>>> 7b4efdce51f9c28a65ac1e8494b0e86ec5b9b174
